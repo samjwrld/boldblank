@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bold Blank | Digital Reality Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Space Grotesk', 'sans-serif'],
+              display: ['Syncopate', 'sans-serif'],
+              mono: ['monospace'], // Ensure mono is available
+            },
+            colors: {
+              accent: '#CCFF00', // Acid Lime
+              dark: '#050505',   // Void Black
+              light: '#E0E0E0',
+              surface: '#0F0F0F',
+              glass: 'rgba(255, 255, 255, 0.05)'
+            },
+            backgroundImage: {
+              'noise': "url('https://grainy-gradients.vercel.app/noise.svg')",
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050505;
+        color: #E0E0E0;
+        overflow-x: hidden;
+        cursor: none;
+      }
+      ::selection {
+        background-color: #CCFF00;
+        color: #000;
+      }
+      /* Hide scrollbar for immersive feel */
+      ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+      }
+      .blend-diff {
+        mix-blend-mode: difference;
+      }
+    </style>
+  <script type="module" crossorigin src="/assets/index-Dyr_GXJM.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-CrxbPqYc.css">
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
