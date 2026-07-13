@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&amp;display=swap');
+      .bg-circle {
+        fill: #050505;
+      }
+      .logo-text {
+        font-family: 'Syncopate', sans-serif;
+        font-weight: 700;
+        fill: #FFFFFF;
+        font-size: 165px;
+        letter-spacing: -0.06em;
+        text-anchor: middle;
+      }
+    </style>
+  </defs>
+  <!-- Precise circular background -->
+  <circle cx="256" cy="256" r="240" class="bg-circle" />
+  
+  <!-- "BB" lettering, balanced precisely for the wide block proportions of Syncopate -->
+  <text x="250" y="312" class="logo-text">BB</text>
+</svg>
